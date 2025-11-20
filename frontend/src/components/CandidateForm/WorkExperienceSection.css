@@ -1,0 +1,80 @@
+.work-experience-section {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f8f9fa;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.section-header h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.remove-button {
+  min-width: auto;
+  padding: 5px 15px;
+  font-size: 14px;
+}
+
+.section-fields {
+  display: grid;
+  gap: 15px;
+}
+
+.textarea-field {
+  margin-bottom: 20px;
+}
+
+.textarea-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: inherit;
+  resize: vertical;
+  transition: border-color 0.3s ease;
+}
+
+.textarea-input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.date-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.checkbox-field {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-field label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.checkbox-field input[type="checkbox"] {
+  margin-right: 8px;
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  .date-fields {
+    grid-template-columns: 1fr;
+  }
+}
+
